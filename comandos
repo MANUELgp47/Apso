@@ -1,0 +1,22 @@
+-21
+ ls -l -R
+-22
+Borra recursivamente árboles de directorio.
+-23
+rm -rf ModuloI/Practica1/Datos/Temporal/
+
+
+p2
+
+-7
+find /var -name *data* -type d
+-8
+find /etc -used 100
+-10
+grep manuel.gallego1 passwd
+-11
+wc -m group
+-12
+wc -L group
+-13
+sort group
