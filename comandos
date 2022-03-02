@@ -1,3 +1,4 @@
+#-------------Practica 1
 -21
  ls -l -R
 -22
@@ -6,7 +7,7 @@ Borra recursivamente árboles de directorio.
 rm -rf ModuloI/Practica1/Datos/Temporal/
 
 
-p2
+#-------------Practica 2
 
 -7
 find /var -name *data* -type d
@@ -20,3 +21,13 @@ wc -m group
 wc -L group
 -13
 sort group
+-14
+head /etc/passwd -n3
+-15
+tail /etc/passwd -n3
+-16
+ln -s fichcancion versos
+-17
+hacer
+-18
+who -H
