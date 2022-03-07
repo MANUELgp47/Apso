@@ -43,3 +43,49 @@ TERMINAR
 
 #-------------Practica 3
 
+
+#-------------Practica 4
+
+-3
+set
+-4
+si
+-5
+No
+-7
+set -x //creo
+-9
+set +x
+-10
+P4 =/home/manuel.gallego1/ModuloI/Practica4
+-11
+cd $P4
+-13
+echo "El  directorio  de  trabajo actual  es <<" $(pwd) " >> "
+-14
+unset HOME
+-16
+#alias >> losalias; sort -r losalias >> losalias (terminar)
+-17
+-18
+alias p4='cd/home/manuel.gallego1/ModuloI/Practica4'
+-19
+p4
+-20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
