@@ -8,3 +8,16 @@ date;
 echo "saludos ";yo;
 ps;
 -------
+#!/bin/bash
+# Manuel Gallego Perez
+#script contador
+echo "Parametro 1:";
+read v1;
+echo "Parametro 2:";
+read v2;
+
+ find $v2 $v1 -type f |wc -l;
+
+exit
+
+
