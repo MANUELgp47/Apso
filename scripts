@@ -1,0 +1,10 @@
+Practica 5
+-------
+#!/bin/bash
+# Manuel Gallego Perez
+#script saludos
+date;
+#export yo;
+echo "saludos ";yo;
+ps;
+-------
