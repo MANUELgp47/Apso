@@ -1,4 +1,4 @@
-Practica 5
+#-------------Practica 5
 -------
 #!/bin/bash
 # Manuel Gallego Perez
@@ -21,3 +21,30 @@ read v2;
 exit
 
 
+#-------------Practica 6
+------ 1
+#!/bin/bash
+# Manuel Gallego Perez
+#script nprimeros
+
+#echo "Parametro 1:"; read v1; echo "Parametro 2:";read v2;
+
+v1=/home/manuel.gallego1/ModuloI;
+
+if test -f $v1;
+         then echo "no es un directorio";
+else
+        if test -d $v1
+        then
+                lista=$(find $v1)
+                echo "---------------------"
+                for $lista in 5
+                do
+                echo "t";
+                done
+
+        fi
+fi
+
+exit
+--sin terminar
