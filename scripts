@@ -69,4 +69,16 @@ else
 
 fi fi fi
 exit
------- 5
+------ 6
+#!/bin/bash
+# Manuel Gallego Perez
+#script miron
+
+echo "Parametro:"; read v1;
+#if test -f $v1;then
+
+        if test $v1 == $HOME*;then
+                echo "Funciona";
+        fi
+#fi
+exit
