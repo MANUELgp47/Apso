@@ -50,3 +50,23 @@ fi
 
 exit
 ------ 4
+#!/bin/bash
+# Manuel Gallego Perez
+#script miron
+
+echo "Parametro:"; read v1;
+if test -z $v1;then
+        echo " parametro sin valor";
+        exit
+else if test -f $v1;then
+        more $v1;
+
+else if test -d $v1;then
+        ls -la $v1
+
+else
+        echo "error - "$v1;
+
+fi fi fi
+exit
+------ 5
