@@ -27,24 +27,26 @@ exit
 # Manuel Gallego Perez
 #script nprimeros
 
-#echo "Parametro 1:"; read v1; echo "Parametro 2:";read v2;
+echo "Parametro 1:"; read v1; echo "Parametro 2:";read v2;
 
-v1=/home/manuel.gallego1/ModuloI;
-
+#v1=/home/manuel.gallego1/ModuloI;
+#v2=5;
 if test -f $v1;
          then echo "no es un directorio";
 else
         if test -d $v1
         then
-                lista=$(find $v1)
+                lista=$(find $v1|head -n $v2)
                 echo "---------------------"
-                for $lista in 5
+                j=0;
+                for i in $lista
                 do
-                echo "t";
+                        j=`expr $j + 1`
+                        echo "El nombre del fichero" $j " es "$i;
                 done
 
         fi
 fi
 
 exit
---sin terminar
+------ 2
