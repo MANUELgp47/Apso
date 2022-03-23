@@ -1,0 +1,5 @@
+-------Practica 8
+-7
+sudo usermod -a -G users user2
+-9
+sudo usermod -d /home/user2b -m user2
