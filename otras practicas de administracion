@@ -50,3 +50,6 @@ dmesg | grep EXT4
 sudo systemctl | grep running
 --7
 journalctl | grep NetworkManager |grep Error
+--8
+systemctl list-units --type target /////////////////////// ??
+--9
