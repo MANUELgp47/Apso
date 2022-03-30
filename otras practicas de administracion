@@ -3,6 +3,9 @@
 sudo usermod -a -G users user2
 -9
 sudo usermod -d /home/user2b -m user2
+-15
+sudo chage -E "2022-06-01" user3
+sudo usermod -e 2022-04-01 user3
 
 -----Practica 9
 --2
